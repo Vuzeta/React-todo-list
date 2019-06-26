@@ -1,5 +1,5 @@
-DEMO: https://vuzeta.github.io/React-todo-list/
-CODE: https://github.com/Vuzeta/React-todo-list/tree/master/src
+*DEMO: https://vuzeta.github.io/React-todo-list/
+*CODE: https://github.com/Vuzeta/React-todo-list/tree/master/src
 
 #Application coded in React.
 
