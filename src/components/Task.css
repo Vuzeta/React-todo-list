@@ -1,0 +1,54 @@
+.task-wrapper {
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasksList img {
+  width: 36px;
+  height: 35px;
+  margin: 5px;
+}
+
+.task-element {
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.button-done,
+.button-remove {
+  border-radius: 12px;
+  padding: 5px 10px;
+  outline: none;
+  border: 0;
+  margin: 0 5px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.button-done:hover,
+.button-remove:hover {
+  transform: translateY(-1px);
+}
+
+.button-done {
+  background-color: #08a124;
+}
+
+.button-remove {
+  background-color: #cd2c24;
+}
+
+/* .task-element > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.task-element > p > span {
+  margin: 0 10px;
+} */

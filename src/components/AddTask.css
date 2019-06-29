@@ -1,0 +1,100 @@
+.form-task {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.error-handler {
+  color: red;
+  font-weight: bold;
+  background-color: white;
+  width: 20%;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding: 5px 10px;
+}
+
+.task {
+  padding: 10px 30px;
+  border-radius: 12px;
+  border: 1px solid #464646;
+  outline: none;
+  background-color: #464646;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.task:focus {
+  border: 1px solid #ff6600;
+}
+
+.task:hover {
+  border: 1px solid #ff6600;
+}
+
+input,
+select {
+  font-size: 16px;
+  font-family: "Merriweather", serif;
+}
+
+.date {
+  border-radius: 12px;
+  background-color: white;
+  color: #ff6600;
+  border: 0;
+  outline: none;
+  text-align: center;
+  padding: 0;
+  border-bottom: 1px solid white;
+  transition: 0.3s;
+}
+
+.date:hover {
+  border-bottom: 1px solid #ff6600;
+}
+
+.date::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  display: none;
+}
+
+.priority {
+  border-radius: 12px;
+  border: 0;
+  outline: none;
+  padding: 5px 10px;
+  color: #ff6600;
+  border-bottom: 1px solid white;
+  transition: 0.3s;
+}
+
+.priority:hover {
+  border-bottom: 1px solid #ff6600;
+}
+
+.button-add {
+  border-radius: 12px;
+  border: 0;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+  font-family: "Merriweather", serif;
+  cursor: pointer;
+  transition: 0.2s;
+  outline: none;
+}
+
+.button-add:hover {
+  transform: scale(1.05);
+}
+.button-add:active {
+  background-color: #ff6600e1;
+}
