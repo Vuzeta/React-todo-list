@@ -17,6 +17,6 @@ https://vuzeta.github.io/React-todo-list/
 ------------
 ### CODE
 
-https://github.com/Vuzeta/Register_Form
+https://github.com/Vuzeta/React-todo-list
 
 ------------
